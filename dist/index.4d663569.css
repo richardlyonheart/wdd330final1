@@ -1,0 +1,149 @@
+@import "https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap";
+body {
+  color: #fff;
+  background: linear-gradient(135deg, #1f1c2c 0%, #047885 100%);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  font-family: Orbitron, sans-serif;
+  display: flex;
+  overflow: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  justify-content: center;
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+}
+
+.side-by-side-container {
+  justify-content: space-between;
+  gap: 20px;
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+}
+
+#locationDisplayContainer {
+  backdrop-filter: blur(10px);
+  text-align: center;
+  z-index: 1000;
+  background: #000000b3;
+  border: 2px solid #0fd;
+  border-radius: 10px;
+  width: 100%;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 20px #0fd;
+}
+
+#locationDisplay {
+  color: #0fd;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#weather {
+  text-align: center;
+  backdrop-filter: blur(10px);
+  background: #000000b3;
+  border: 2px solid #0fd;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  margin-top: 80px;
+  padding: 20px;
+  box-shadow: 0 0 20px #0fd;
+}
+
+.inputs-container {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+#forecastContainer, #precipitationContainer {
+  text-align: center;
+  backdrop-filter: blur(10px);
+  background: #000000b3;
+  border: 2px solid #0fd;
+  border-radius: 10px;
+  width: 45%;
+  max-width: 300px;
+  padding: 20px;
+  box-shadow: 0 0 20px #0fd;
+}
+
+input, button {
+  color: #0fd;
+  background: #00000080;
+  border: 1px solid #0fd;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 300px;
+  margin: 5px;
+  padding: 10px;
+  transition: background .3s, transform .3s;
+}
+
+input::placeholder {
+  color: #0fd;
+}
+
+input:focus, button:hover {
+  background: #0fd3;
+  transform: scale(1.05);
+}
+
+.forecast-day {
+  border-top: 1px solid #0fd;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+h1, h2, h3, h4, p {
+  color: #0fd;
+  margin: 10px 0;
+}
+
+body.tactical-mode {
+  background: linear-gradient(135deg, #2c2c2c 0%, #4b0000 100%);
+}
+
+#locationDisplayContainer.tactical-mode, #weather.tactical-mode, #forecastContainer.tactical-mode, #precipitationContainer.tactical-mode {
+  background: #320000b3;
+  border: 2px solid #f44;
+  box-shadow: 0 0 20px #f44;
+}
+
+#locationDisplay.tactical-mode, h1.tactical-mode, h2.tactical-mode, h3.tactical-mode, h4.tactical-mode, p.tactical-mode {
+  color: #f44;
+}
+
+button.tactical-mode-button, input.tactical-mode {
+  color: #f44;
+  background: #32000080;
+  border: 1px solid #f44;
+}
+
+button.tactical-mode-button:hover, input.tactical-mode:focus {
+  background: #f443;
+}
+
+input.tactical-mode::placeholder {
+  color: #f44;
+}
+
+button.tactical-mode-border {
+  border: 1px solid #f44;
+}
+/*# sourceMappingURL=index.4d663569.css.map */
