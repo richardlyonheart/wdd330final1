@@ -1,0 +1,2 @@
+var e;document.addEventListener("DOMContentLoaded",()=>{var e;e=localStorage.getItem("apiCallCounter")||0,document.getElementById("counterDisplay").textContent=`API calls today: ${e}`});const t=document.createElement("h1");t.textContent="hello world, weather stuff",document.getElementById("root").appendChild(t),document.getElementById("root").appendChild(((e={}).__esModule?e.default:e)());
+//# sourceMappingURL=index.64737f51.js.map

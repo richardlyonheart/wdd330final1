@@ -2,7 +2,6 @@
   "name": "wdd330final1",
   "version": "1.0.0",
   "description": "trying to fix netlify",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
