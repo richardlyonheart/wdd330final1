@@ -38,7 +38,7 @@ function displayCounter(counter) {
 }
 
 // Exported function to fetch and display the weather data by city name
-async function getWeather() {
+export async function getWeather() {
     incrementCounter(); // Increment the counter when the API is called
     const location = document.getElementById('location').value;
     const apiKey = '414566a386a08cff91c0b2692629a943';

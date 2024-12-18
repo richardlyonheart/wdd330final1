@@ -1,8 +1,7 @@
-const helloworld = document.createElement('h1');
-helloworld.textContent = "hello world, weather stuff";
-document.getElementById('root').appendChild(helloworld);
+import { createElement } from './utils';
+const helloNode = createElement('h1',{textContent: 'hello world'});
 
 import App from './App';
 
-document.getElementById('root').appendChild(App());
+document.getElementById('root').appendChild(helloNode);
 

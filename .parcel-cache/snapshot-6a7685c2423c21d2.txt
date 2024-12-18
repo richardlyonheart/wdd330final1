@@ -1,6 +1,6 @@
 4246
 100C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\domutils\lib\legacy.js133789534481138131 0
-77C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\package.json133789561824134829 0
+77C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\package.json133789570824040197 0
 87C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\picomatch133789534481482760 1
 87C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\is-number133789534476628769 1
 82C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\package-lock.json133789561825116284 0
@@ -12,7 +12,7 @@
 94C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\has-flag\license133789534476794198 0
 93C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\prettier\cli.js133789561802954910 0
 102C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\to-regex-range\README.md133789534476947092 0
-69C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\dist133789558345594587 1
+69C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\dist133789570826693642 1
 116C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\@parcel\transformer-image\package.json133789534481828421 0
 109C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\@parcel\workers\src\cpuCount.js133789534483438577 0
 95C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\dotenv-expand\lib133789534479598549 1
@@ -25,7 +25,7 @@
 108C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\type-fest\source\asyncify.d.ts133789534477934733 0
 117C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\json-parse-even-better-errors\README.md133789534477358599 0
 96C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\get-port\readme.md133789534477403330 0
-75C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\index.html133789557111344888 0
+75C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\index.html133789564506802843 0
 106C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\htmlparser2\lib\esm\index.js133789534476108273 0
 83C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\json5133789534482673882 1
 117C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\@parcel\packager-svg\src\SVGPackager.js133789534479785115 0
@@ -57,7 +57,7 @@
 138C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\htmlnano\docs\versioned_sidebars\version-2.0.0-sidebars.json133789534488173617 0
 110C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\domutils\lib\manipulation.js.map133789534486668514 0
 128C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\caniuse-lite\data\features\intersectionobserver.js133789534501977538 0
-75C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\src\App.js133789551867975435 0
+75C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\src\App.js133789570007773222 0
 84C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\braces133789534481148131 1
 94C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\posthtml\license133789534475384708 0
 118C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\htmlnano\lib\modules\removeUnusedCss.cjs133789534485454557 0
@@ -76,13 +76,13 @@
 85C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\@parcel133789561824077846 1
 96C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\@parcel\source-map133789534490723115 1
 109C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\caniuse-lite\data\regions\MK.js133789534503139961 0
-77C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\src\index.js133789554265332833 0
+77C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\src\index.js133789564506756959 0
 123C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\caniuse-lite\data\features\media-fragments.js133789534502936956 0
 92C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\lmdb\native.js133789534492443631 0
 79C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\src\styles.css133789557110986572 0
 91C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\semver\ranges133789534487829806 1
 109C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\cosmiconfig\dist\index.d.ts.map133789534485919309 0
-77C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\src\utils.js133789562654922773 0
+77C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\src\utils.js133789564506732043 0
 88C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\base-x\src133789534477393357 1
 153C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib\filesystem.js133789534476573227 0
 108C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\lines-and-columns\package.json133789534476417558 0
@@ -635,7 +635,7 @@
 103C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\type-fest\ts41\index.d.ts133789534483580496 0
 121C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\@parcel\packager-wasm\lib\wasm-sourcemap.js133789534479654502 0
 126C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\@parcel\core\src\requests\WriteBundlesRequest.js133789534494461112 0
-87C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\dist\index.975ef6c8.js133789558345356859 0
+87C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\dist\index.975ef6c8.js133789570826403891 0
 104C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\msgpackr\dist\node.cjs.map133789534487627217 0
 133C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\posthtml\node_modules\dom-serializer\lib\index.d.ts.map133789534481865788 0
 108C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\type-fest\ts41\kebab-case.d.ts133789534484063667 0
@@ -1010,7 +1010,7 @@
 99C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\resolve-from\index.js133789534475892729 0
 102C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\json5\lib\stringify.d.ts133789534484180409 0
 109C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\caniuse-lite\data\regions\VC.js133789534505889519 0
-92C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\dist\index.4d663569.css.map133789558344944511 0
+92C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\dist\index.4d663569.css.map133789570826403891 0
 117C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\caniuse-lite\data\features\innertext.js133789534501631739 0
 98C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\resolve-from\license133789534476318333 0
 117C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\htmlparser2\lib\esm\WritableStream.d.ts133789534486554915 0
@@ -4008,7 +4008,7 @@
 128C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\@parcel\core\test\fixtures\custom-format-infer-ext133789534494698070 1
 121C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\@parcel\optimizer-svgo\lib\SVGOOptimizer.js133789534479798052 0
 105C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\@parcel\optimizer-image\lib133789534478952115 1
-91C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\dist\index.975ef6c8.js.map133789558345388177 0
+91C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\dist\index.975ef6c8.js.map133789570826636969 0
 114C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\@parcel\optimizer-image\package.json133789534479773284 0
 108C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\@parcel\optimizer-htmlnano\src133789534481590269 1
 112C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\@parcel\optimizer-css\package.json133789534481708394 0
@@ -4240,8 +4240,8 @@
 95C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\.bin\prettier.ps1133789561823996706 0
 89C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\.bin\semver133789534570786994 0
 105C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\node_modules\.bin\update-browserslist-db133789534570786994 0
-88C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\dist\index.4d663569.css133789558344879923 0
+88C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\dist\index.4d663569.css133789570826354025 0
 91C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\dist\index.64737f51.js.map133789555318461092 0
 88C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\dist\index.8bb4fd45.css133789558259377223 0
 92C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\dist\index.8bb4fd45.css.map133789558259676935 0
-80C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\dist\index.html133789558345584612 0
+80C:\Users\Brend\Documents\school\wdd330\WDD330final1\wdd330final1\dist\index.html133789570825981285 0

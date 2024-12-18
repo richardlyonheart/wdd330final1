@@ -8,45 +8,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUDtTJN-Hqxsm71cF46cblcM4HTovmFAs"></script>
 </head>
 <body>
-    <div id="root">
-        <div id="app">
-            <div id="locationDisplayContainer" class="hidden">
-                <h2 id="locationDisplay"></h2>
-            </div>
-            <div class="container">
-                <button id="tacticalModeToggle" onclick="toggleTacticalMode()">Toggle Tactical Mode</button>
-            </div>
-            <div class="container">
-                <div id="weather">
-                    <h1>Current Weather</h1>
-                    <div class="inputs-container">
-                        <input type="text" id="location" placeholder="Enter location">
-                        <button id="getWeatherButton" onclick="getWeather()">Get Weather</button>
-                        <button id="getWeatherByLocationButton" onclick="getWeatherByLocation()">Use My Location</button>
-                    </div>
-                    <div class="inputs-container hidden" id="latLonInputs">
-                        <input type="text" id="latitude" placeholder="Enter latitude">
-                        <input type="text" id="longitude" placeholder="Enter longitude">
-                        <button id="getWeatherByLatLonButton" onclick="getWeatherByLatLon()">Get Weather by Lat/Lon</button>
-                    </div>
-                    <div id="result"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div id="counterDisplay">API calls today: 0</div>
-            </div>
-            <div class="side-by-side-container">
-                <div id="forecastContainer" class="hidden">
-                    <h1>Forecast</h1>
-                    <div id="forecast"></div>
-                </div>
-                <div id="precipitationContainer" class="hidden">
-                    <h1>Precipitation</h1>
-                    <div id="precipitation"></div>
-                </div>
-            </div>
-            <div id="map" style="width: 100%; height: 400px;"></div>
-    </div>
+    <div id="root"></div>
     <script type="module" src="src/index.js"></script>
 </body>
 </html>

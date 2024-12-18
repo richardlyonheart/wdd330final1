@@ -597,14 +597,19 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"8lqZg":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var _utils = require("./utils");
 var _app = require("./App");
 var _appDefault = parcelHelpers.interopDefault(_app);
-const helloworld = document.createElement('h1');
-helloworld.textContent = "hello world, weather stuff";
-document.getElementById('root').appendChild(helloworld);
-document.getElementById('root').appendChild((0, _appDefault.default)());
+const helloNode = (0, _utils.createElement)('h1', {
+    textContent: 'hello world'
+});
+document.getElementById('root').appendChild(helloNode);
 
-},{"./App":"2kQhy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2kQhy":[function(require,module,exports,__globalThis) {
+},{"./App":"2kQhy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./utils":"en4he"}],"2kQhy":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+// Exported function to fetch and display the weather data by city name
+parcelHelpers.export(exports, "getWeather", ()=>getWeather);
 let map;
 let marker;
 // Exported function to initialize the map
@@ -640,7 +645,6 @@ function displayCounter(counter) {
     const counterDisplay = document.getElementById('counterDisplay');
     counterDisplay.textContent = `API calls today: ${counter}`;
 }
-// Exported function to fetch and display the weather data by city name
 async function getWeather() {
     incrementCounter(); // Increment the counter when the API is called
     const location = document.getElementById('location').value;
@@ -766,7 +770,7 @@ function toggleTacticalMode() {
     document.getElementById('getWeatherByLatLonButton').classList.toggle('tactical-mode-button');
 }
 
-},{}],"gkKU3":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -796,6 +800,23 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["9mu7C","8lqZg"], "8lqZg", "parcelRequire94c2")
+},{}],"en4he":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "createElement", ()=>createElement);
+function createElement(type, props = {}, children = []) {
+    const element = document.createElement(type);
+    // props: {textContent: "Hello world!", id: "header1", "data-productId": 123, ...}
+    Object.entries(props).forEach(([key, value])=>{
+        if (~key.indexOf('-')) element.setAttribute(key, value); // data attributes
+        else element[key] = value;
+    });
+    children.forEach((child)=>{
+        element.appendChild(child);
+    });
+    return element;
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["9mu7C","8lqZg"], "8lqZg", "parcelRequire94c2")
 
 //# sourceMappingURL=index.975ef6c8.js.map

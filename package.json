@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "trying to fix netlify",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
   "author": "Brenden Lyon",
   "dependencies": {
     "parcel": "^2.8.3",
-    "prettier": "^2.8.4"
-}
+    "prettier": "^2.8.8"
+  }
 }
